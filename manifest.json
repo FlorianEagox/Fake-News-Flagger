@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Fake News Flagger",
+	"description": "Browser extension that enables crowd sourced peer-review for news articles across the internet",
+	"version": "1",
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_popup": "index.html"
+	},
+	"permissions": ["activeTab"]
+}
